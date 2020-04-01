@@ -1,2 +1,2 @@
 # codewars
-collection of codewars kata
+Slowly building a collection of katas from codewars for refs...

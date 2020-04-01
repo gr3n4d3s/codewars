@@ -20,7 +20,7 @@
 # revrot("563000655734469485", 4) --> "0365065073456944"
 
 
-revrot <- function(str, sz){
+revRot <- function(str, sz){
     
     strnum <- nchar(str)    #lengthe of string
     cuts <- strnum%/%sz     #Numer of cuts to make     
@@ -57,5 +57,5 @@ return(c)
 }
 
 
-# test ... revrot("12345678910111213", 5)
+# test ... revRot("12345678910111213", 5)
 
